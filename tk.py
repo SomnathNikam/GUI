@@ -14,13 +14,13 @@
 # root.mainloop()
 
 
-# from tkinter import *
-# root=Tk()
-# root.geometry("844x634")
-# photo=PhotoImage(file='test.png')
-# L=Label(image=photo)
-# L.pack()
-# root.mainloop()
+from tkinter import *
+root=Tk()
+root.geometry("844x634")
+photo=PhotoImage(file='appstore.png')
+L=Label(image=photo)
+L.pack()
+root.mainloop()
 
 # from tkinter import *
 # from PIL import Image,ImageTk
@@ -48,10 +48,10 @@
 # ).pack()
 # root.mainloop()
 
-from tkinter import *
-root=Tk()
-f1=Frame(root,bg='grey',borderwidth=12,pady=375)
-f1.pack(side='top')
-l=Label(f1,text="Hello Cosmos")
-l.pack()
-root.mainloop()
+# from tkinter import *
+# root=Tk()
+# f1=Frame(root,bg='grey',borderwidth=12,pady=375)
+# f1.pack(side='top')
+# l=Label(f1,text="Hello Cosmos")
+# l.pack()
+# root.mainloop()
